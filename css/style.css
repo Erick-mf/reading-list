@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+.container {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding: 2rem 0;
+    height: 100vh;
+    background: radial-gradient(circle at center, #030303, #1162ac);
+}
+
+#formulario {
+    display: flex;
+    background: #f2f2f2;
+    padding: 1rem;
+    flex-direction: column;
+    width: 40%;
+    height: 90%;
+    border-right: 1px solid black;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+
+label {
+    font-size: 1.2rem;
+}
+
+input {
+    width: 50%;
+    height: 13%;
+    margin: 10px 0;
+}
+
+#btn {
+    width: 22%;
+    height: 20%;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #039;
+    font-size: 1.2rem;
+    color: #f2f2f2;
+    letter-spacing: 2px;
+    border-radius: 5%;
+    border: 1px solid #039;
+}
+
+#btn:hover {
+    background-color: #325bad;
+}
+
+#lista-libros {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 90%;
+    background: #f2f2f2;
+    padding: 2rem;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+#header-lista {
+    display: flex;
+    justify-content: space-between;
+}
+
+#display-books {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 0;
+    overflow-y: auto;
+}
+
+#btn-2 {
+    width: 9rem;
+    height: 3rem;
+    margin-top: 10px;
+    margin-right: 50px;
+    padding: 10px;
+    background-color: #039;
+    font-size: 1.2rem;
+    color: #f2f2f2;
+    letter-spacing: 2px;
+    border-radius: 5%;
+    border: 1px solid #039;
+}
+
+#btn-2:hover {
+    background-color: #325bad;
+}

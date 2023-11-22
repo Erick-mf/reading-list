@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <script src="./js/script.js" type="module"></script>
+        <title>Lista de lectura</title>
+    </head>
+
+    <body>
+        <main class="container">
+            <section id="formulario">
+                <h1>Lista de lectura</h1>
+
+                <form>
+                    <label for="titulo">Título:</label><br />
+                    <input type="text" id="titulo" name="titulo" required /><br />
+                    <label for="genero">Género:</label><br />
+                    <input type="text" id="genero" name="genero" required /><br />
+                    <label for="autor">Autor:</label><br />
+                    <input type="text" id="autor" name="autor" required /><br />
+                    <button id="btn">Añadir libro</button>
+                </form>
+            </section>
+            <section id="lista-libros">
+                <div id="header-lista">
+                    <h2>Lista de libros</h2>
+                    <button id="btn-2">Ver lista</button>
+                </div>
+                <div id="display-books"></div>
+            </section>
+        </main>
+    </body>
+</html>
